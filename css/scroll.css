@@ -1,0 +1,29 @@
+@charset "utf-8";
+/*
+@author wangxianggan
+@destination 重置滚动条
+*/
+/*chrome*/
+::-webkit-scrollbar
+{
+    width: 6px;
+}
+::-webkit-scrollbar:horizontal
+{
+    height: 6px;
+}
+::-webkit-scrollbar-thumb
+{
+    border-radius: 3px;
+    background: #C0C4CC;
+}
+::-webkit-scrollbar-thumb:hover
+{
+    background: #909399;
+}
+/*ie*/
+html{
+    scrollbar-track-color: #e2e6ec;
+    scrollbar-arrow-color: #C0C4CC;
+    scrollbar-face-color: #C0C4CC;
+}
